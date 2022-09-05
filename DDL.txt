@@ -1,0 +1,9 @@
+CREATE TABLE USER(
+	id INTEGER PRIMARY KEY NOT NULL, 
+	first_name VARCHAR2(45), 
+	last_name VARCHAR2(55), 
+	email VARCHAR2(80), 
+	password VARCHAR2(70), 
+	gender VARCHAR2(10), 
+	hobbies VARCHAR2(80), 
+	country VARCHAR2(40));
